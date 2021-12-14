@@ -66,7 +66,7 @@ def get_token():
         encrypt_password, encrypt_login, signature_password, signature_login
     )
 
-    responce = requests.post(
+    response = requests.post(
         url=autorisation_url,
         json=content,
     )
